@@ -2,7 +2,7 @@ export const runtime = 'edge';
 
 let currentPricing = {
   maintenanceFeePerFloor: 200.0, // default fee in AUD
-  currency: "AUDD",
+  currency: "AUD",
 };
 
 export async function GET() {
